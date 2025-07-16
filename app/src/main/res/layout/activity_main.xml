@@ -7,114 +7,104 @@
     android:orientation="vertical"
     android:padding="24dp">
 
-    <!-- Sub Text -->
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hey,\nLogin Now."
-        android:textColor="#FFFF"
-        android:textStyle="bold"
-        android:textSize="40dp"
-        android:layout_gravity="start"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="20dp"/>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:background="#FFFF"
-        android:padding="24dp"
-        android:gravity="center_horizontal">
-
         <!-- Sub Text -->
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="PLease fill all the details to Register. "
-            android:textColor="#999"
-            android:textSize="14sp"
+            android:text="Hey,\nRegister Now."
+            android:textColor="#FFFF"
+            android:textStyle="bold"
+            android:textSize="40dp"
             android:layout_gravity="start"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"/>
 
-
-        <!-- Username -->
-        <EditText
-            android:id="@+id/etRegisterUsername"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Username"
-            android:backgroundTint="@null"
-            android:padding="10dp"
-            android:textColor="#000"
-            android:textSize="16sp"
-            android:layout_marginBottom="12dp" />
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFF"
+            android:padding="24dp"
+            android:gravity="center_horizontal">
 
-        <!-- Name -->
-        <EditText
-            android:id="@+id/etRegisterName"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Name"
-            android:backgroundTint="@null"
-            android:padding="10dp"
-            android:textColor="#000"
-            android:textSize="16sp"
-            android:layout_marginBottom="12dp" />
-
-        <!-- Email -->
-        <EditText
-            android:id="@+id/etRegisterEmail"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Email"
-            android:backgroundTint="@null"
-            android:padding="10dp"
-            android:textColor="#000"
-            android:textSize="16sp"
-            android:layout_marginBottom="12dp" />
-
-        <!-- Password -->
-        <EditText
-            android:id="@+id/etRegisterPassword"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:hint="Password"
-            android:inputType="textPassword"
-            android:backgroundTint="@null"
-
-            android:padding="10dp"
-            android:textSize="16sp"
-            android:layout_marginBottom="8dp" />
+                <!-- Sub Text -->
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Please fill in all the form."
+                    android:textColor="#999"
+                    android:textSize="14sp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="4dp" />
 
 
-        <!-- Register Button -->
-        <Button
-            android:id="@+id/btnRegister"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Register"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:backgroundTint="#9AC2B0"
-            android:layout_marginTop="30dp"
-            />
+                <!-- Username -->
+                <EditText
+                    android:id="@+id/etRegisterUsername"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Username"
+                    android:backgroundTint="@null"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="12dp" />
 
-        <!-- Login Button -->
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:text="Login"
-            android:textColor="#000"
-            android:textStyle="bold"
-            android:backgroundTint="#FFBA00"
-            />
+                <EditText
+                    android:id="@+id/etRegisterName"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Name"
+                    android:backgroundTint="@null"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="12dp" />
 
-    </LinearLayout>
+                <EditText
+                    android:id="@+id/etRegisterEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:backgroundTint="@null"
+                    android:padding="10dp"
+                    android:textColor="#000"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="12dp" />
+
+                <!-- Password -->
+                <EditText
+                    android:id="@+id/etRegisterPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:backgroundTint="@null"
+                    android:padding="10dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="8dp" />
+
+                <!-- Login Button -->
+                <Button
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Register"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:backgroundTint="#9AC2B0"
+                    android:layout_marginTop="30dp"
+                    />
+
+                <Button
+                    android:id="@+id/btnLogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Login"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:backgroundTint="#FFBA00"
+                    />
+
+        </LinearLayout>
 </LinearLayout>
-
-
-
-
-
